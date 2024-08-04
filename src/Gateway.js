@@ -118,6 +118,7 @@ class Gateway extends Server {
           method: req.method.toLowerCase(),
           params: req.params,
           query: req.query,
+          file : req.file,
           body: req.body,
           headers: req.headers,
           cookies: req.cookies,
